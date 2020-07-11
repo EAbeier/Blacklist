@@ -37,7 +37,7 @@ include_once 'includes/header.php';
             </tbody>
         </table>
         <br>
-        <a href="" class="btn #1a237e indigo darken-4" style="border-radius: 30px">
+        <a href="adicionar.php" class="btn #1a237e indigo darken-4" style="border-radius: 30px">
             Adicionar Endereço
             <i class="material-icons right">add</i>
         </a>
