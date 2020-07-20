@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3708f55-17fe-441c-8eb1-12752e0aeb42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/mensagem.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adicionar.php" beforeDir="false" afterPath="$PROJECT_DIR$/adicionar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_action/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_action/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_action/db_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_action/db_connect.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,11 +27,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -55,22 +61,39 @@
       <workItem from="1594078454121" duration="1759000" />
       <workItem from="1594120437690" duration="7419000" />
       <workItem from="1594304429931" duration="1183000" />
-      <workItem from="1594469826684" duration="14056000" />
+      <workItem from="1594469826684" duration="14688000" />
+      <workItem from="1594632758995" duration="377000" />
+      <workItem from="1594633606359" duration="6002000" />
+      <workItem from="1594722179055" duration="2564000" />
+      <workItem from="1594806420440" duration="8910000" />
+      <workItem from="1594892884970" duration="11956000" />
+      <workItem from="1594978778174" duration="7660000" />
+      <workItem from="1594997939530" duration="1171000" />
+      <workItem from="1595092868110" duration="8946000" />
+      <workItem from="1595239472082" duration="1965000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="267" y="23" key="#SQL_Dialects" timestamp="1594485911362">
+    <state x="119" y="23" key="#SQL_Dialects" timestamp="1594633724872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="267" y="23" key="#SQL_Dialects/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594485911362" />
-    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1593779610902">
+    <state x="119" y="23" key="#SQL_Dialects/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594633724872" />
+    <state x="123" y="220" key="#SQL_Resolution_Scopes" timestamp="1594808084154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1593779610902" />
+    <state x="123" y="220" key="#SQL_Resolution_Scopes/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594808084154" />
+    <state x="46" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594812083682">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="46" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594812083682" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594633106205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594633106205" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594079044056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -80,14 +103,39 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1593686059595" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1594469827038">
+    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1594896983038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594469827038" />
+    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594896983038" />
+    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1594896983038">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594896983038" />
+    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1594896983038">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594896983038" />
+    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1594896983038">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594896983038" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1594808137300">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594808137300" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1594632987801">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594632987801" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-317.1920.1040@0.0.1366.728" timestamp="1594078459434" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1594079814468">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1594983763782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594983763782" />
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1920.-317.1920.1040@0.0.1366.728" timestamp="1594079814468" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594899926287">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594899926287" />
   </component>
 </project>

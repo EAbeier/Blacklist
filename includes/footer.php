@@ -4,6 +4,7 @@
 <footer>
     <div>
         <img class="logo" src="includes/logotipo.png">
+        <p></p>
     </div>
 </footer>
 </html>
