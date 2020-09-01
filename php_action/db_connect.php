@@ -1,8 +1,8 @@
 <?php
 $servername = "127.0.0.1";
-$username = "user do db";
-$password = "senha do db";
-$dbName = "nome do db";
+$username = "root";
+$password = "123456";
+$dbName = "db_blacklist";
 
 $connect = mysqli_connect($servername, $username, $password, $dbName, 3308);
 mysqli_set_charset($connect,"utf8");
