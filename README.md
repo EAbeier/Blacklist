@@ -14,4 +14,4 @@ O site trata-se de duas páginas a primeira o INDEX para consulta e a segunda a 
 
 # ADICIONAR:
 
-<img src="adiconarInadimplente.jpg"/>
+<img src="Blacklist/includes/adiconarInadimplente.jpg"/>
