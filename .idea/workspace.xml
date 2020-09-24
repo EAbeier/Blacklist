@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3708f55-17fe-441c-8eb1-12752e0aeb42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/mensagem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conteudo/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conteudo/cadastrarusuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conteudo/deletar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conteudo/incial.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controleusuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php_action/db_usersblacklist_connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/faf5c9a6-193b-4c95-98f9-0e1d08b3b3eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/faf5c9a6-193b-4c95-98f9-0e1d08b3b3eb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adicionar.php" beforeDir="false" afterPath="$PROJECT_DIR$/adicionar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/php_action/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_action/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_action/db_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_action/db_connect.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +27,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,19 +45,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blacklist_fill" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\blacklist\includes" />
       <recent name="C:\wamp64\www\blacklist" />
+      <recent name="C:\wamp64\www\blacklist\conteudo" />
       <recent name="C:\wamp64\www\blacklist\php_action" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -71,13 +91,52 @@
       <workItem from="1594997939530" duration="1171000" />
       <workItem from="1595092868110" duration="8946000" />
       <workItem from="1595239472082" duration="1965000" />
+      <workItem from="1595252370010" duration="603000" />
+      <workItem from="1595253776255" duration="595000" />
+      <workItem from="1595344190402" duration="261000" />
+      <workItem from="1595412218742" duration="5405000" />
+      <workItem from="1595495934268" duration="1180000" />
+      <workItem from="1595497279299" duration="236000" />
+      <workItem from="1595508575413" duration="11000" />
+      <workItem from="1595583909358" duration="810000" />
+      <workItem from="1595587361636" duration="2632000" />
+      <workItem from="1595676622204" duration="2574000" />
+      <workItem from="1595684111550" duration="11899000" />
+      <workItem from="1595842271490" duration="6736000" />
+      <workItem from="1595850407874" duration="7012000" />
+      <workItem from="1595929805272" duration="8870000" />
+      <workItem from="1596014973642" duration="9206000" />
+      <workItem from="1596024511978" duration="7422000" />
+      <workItem from="1596101201854" duration="11614000" />
+      <workItem from="1596191314857" duration="242000" />
+      <workItem from="1596191804662" duration="2592000" />
+      <workItem from="1596201901197" duration="2951000" />
+      <workItem from="1596285705053" duration="2204000" />
+      <workItem from="1596446377128" duration="2336000" />
+      <workItem from="1596534093644" duration="1042000" />
+      <workItem from="1596713720698" duration="28000" />
+      <workItem from="1596715491802" duration="243000" />
+      <workItem from="1596719682229" duration="91000" />
+      <workItem from="1596719922681" duration="42000" />
+      <workItem from="1596793692796" duration="83000" />
+      <workItem from="1597051839547" duration="1386000" />
+      <workItem from="1597065258785" duration="2377000" />
+      <workItem from="1598365965817" duration="598000" />
+      <workItem from="1598366648481" duration="726000" />
+      <workItem from="1598653043807" duration="95000" />
+      <workItem from="1599647448466" duration="1155000" />
+      <workItem from="1600768497661" duration="150000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="5" key="#Plugins" timestamp="1596192645521">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="5" key="#Plugins/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1596192645521" />
     <state x="119" y="23" key="#SQL_Dialects" timestamp="1594633724872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -86,23 +145,28 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="123" y="220" key="#SQL_Resolution_Scopes/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594808084154" />
-    <state x="46" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594812083682">
+    <state x="46" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595695517337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="46" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594812083682" />
-    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594633106205">
+    <state x="46" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1595695517337" />
+    <state x="426" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596027275984">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594633106205" />
+    <state x="426" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1596027275984" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596191528978">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1596191528978" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594079044056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594035095627" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1920.-317.1920.1040@0.0.1366.728" timestamp="1594079044056" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1593686059595">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1600768646533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1593686059595" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1600768646533" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598653137108" />
     <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1594896983038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -119,23 +183,39 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594896983038" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1594808137300">
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1595695917136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594808137300" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1595695917136" />
+    <state x="539" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1595695411045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="539" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1595695411045" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1594632987801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594632987801" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-317.1920.1040@0.0.1366.728" timestamp="1594078459434" />
+    <state x="-2088" y="-173" width="1036" height="715" maximized="true" key="dock-window-1" timestamp="1595855728500">
+      <screen x="-1920" y="-158" width="1920" height="1040" />
+    </state>
+    <state x="-2088" y="-173" width="1036" height="715" maximized="true" key="dock-window-1/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1595855728500" />
+    <state x="-1416" y="-158" width="1036" height="715" key="dock-window-2" timestamp="1595856162919">
+      <screen x="-1920" y="-158" width="1920" height="1040" />
+    </state>
+    <state x="-1416" y="-158" width="1036" height="715" key="dock-window-2/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1595856162919" />
+    <state x="-1770" y="-158" width="1036" height="715" maximized="true" key="dock-window-3" timestamp="1595935970519">
+      <screen x="-1920" y="-158" width="1920" height="1040" />
+    </state>
+    <state x="-1770" y="-158" width="1036" height="715" maximized="true" key="dock-window-3/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1595935970519" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1594983763782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594983763782" />
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1920.-317.1920.1040@0.0.1366.728" timestamp="1594079814468" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594899926287">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596286828191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1594899926287" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-158.1920.1040@0.0.1366.728" timestamp="1596286828191" />
   </component>
 </project>

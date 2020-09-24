@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.19">
+<dataSource name="users_blacklist@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.18">
     <root id="1">
       <ServerVersion>8.0.18</ServerVersion>
       <DefaultEngine>MyISAM</DefaultEngine>
@@ -8,7 +8,6 @@
       <DefaultCasing>lower/lower</DefaultCasing>
     </root>
     <schema id="2" parent="1" name="bd_blacklist">
-      <Current>1</Current>
       <Collation>utf8_unicode_ci</Collation>
     </schema>
     <schema id="3" parent="1" name="information_schema">
@@ -24,6 +23,7 @@
       <Collation>utf8mb4_0900_ai_ci</Collation>
     </schema>
     <schema id="7" parent="1" name="users_blacklist">
+      <Current>1</Current>
       <Collation>utf8_general_ci</Collation>
     </schema>
     <collation id="8" parent="1" name="armscii8_bin">
@@ -885,82 +885,69 @@
     </collation>
     <user id="280" parent="1" name="mysql.infoschema">
       <Host>localhost</Host>
-      <ObjectGrants>SELECT
-</ObjectGrants>
     </user>
     <user id="281" parent="1" name="mysql.session">
       <Host>localhost</Host>
-      <ObjectGrants>SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,RELOAD,SHUTDOWN,PROCESS,FILE,REFERENCES,INDEX,ALTER,SHOW DATABASES,SUPER,CREATE TEMPORARY TABLES,LOCK TABLES,EXECUTE,REPLICATION SLAVE,REPLICATION CLIENT,CREATE VIEW,SHOW VIEW,CREATE ROUTINE,ALTER ROUTINE,CREATE USER,EVENT,TRIGGER,CREATE TABLESPACE!
-BACKUP_ADMIN,CLONE_ADMIN,CONNECTION_ADMIN,PERSIST_RO_VARIABLES_ADMIN,SESSION_VARIABLES_ADMIN,SYSTEM_USER,SYSTEM_VARIABLES_ADMIN
-SELECT|performance_schema:null
-SELECT|mysql.user:null
-</ObjectGrants>
     </user>
     <user id="282" parent="1" name="mysql.sys">
       <Host>localhost</Host>
-      <ObjectGrants>SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,RELOAD,SHUTDOWN,PROCESS,FILE,REFERENCES,INDEX,ALTER,SHOW DATABASES,SUPER,CREATE TEMPORARY TABLES,LOCK TABLES,EXECUTE,REPLICATION SLAVE,REPLICATION CLIENT,CREATE VIEW,SHOW VIEW,CREATE ROUTINE,ALTER ROUTINE,CREATE USER,EVENT,TRIGGER,CREATE TABLESPACE,CREATE ROLE,DROP ROLE!
-APPLICATION_PASSWORD_ADMIN,AUDIT_ADMIN,BACKUP_ADMIN,BINLOG_ADMIN,BINLOG_ENCRYPTION_ADMIN,CLONE_ADMIN,CONNECTION_ADMIN,ENCRYPTION_KEY_ADMIN,GROUP_REPLICATION_ADMIN,INNODB_REDO_LOG_ARCHIVE,PERSIST_RO_VARIABLES_ADMIN,REPLICATION_APPLIER,REPLICATION_SLAVE_ADMIN,RESOURCE_GROUP_ADMIN,RESOURCE_GROUP_USER,ROLE_ADMIN,SERVICE_CONNECTION_ADMIN,SESSION_VARIABLES_ADMIN,SET_USER_ID,SYSTEM_USER,SYSTEM_VARIABLES_ADMIN,TABLE_ENCRYPTION_ADMIN,XA_RECOVER_ADMIN!
-TRIGGER|sys:null
-SELECT|sys.sys_config:null
-</ObjectGrants>
     </user>
     <user id="283" parent="1" name="root">
       <Host>localhost</Host>
-      <ObjectGrants>SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,RELOAD,SHUTDOWN,PROCESS,FILE,REFERENCES,INDEX,ALTER,SHOW DATABASES,SUPER,CREATE TEMPORARY TABLES,LOCK TABLES,EXECUTE,REPLICATION SLAVE,REPLICATION CLIENT,CREATE VIEW,SHOW VIEW,CREATE ROUTINE,ALTER ROUTINE,CREATE USER,EVENT,TRIGGER,CREATE TABLESPACE,CREATE ROLE,DROP ROLE!
-APPLICATION_PASSWORD_ADMIN,AUDIT_ADMIN,BACKUP_ADMIN,BINLOG_ADMIN,BINLOG_ENCRYPTION_ADMIN,CLONE_ADMIN,CONNECTION_ADMIN,ENCRYPTION_KEY_ADMIN,GROUP_REPLICATION_ADMIN,INNODB_REDO_LOG_ARCHIVE,PERSIST_RO_VARIABLES_ADMIN,REPLICATION_APPLIER,REPLICATION_SLAVE_ADMIN,RESOURCE_GROUP_ADMIN,RESOURCE_GROUP_USER,ROLE_ADMIN,SERVICE_CONNECTION_ADMIN,SESSION_VARIABLES_ADMIN,SET_USER_ID,SYSTEM_USER,SYSTEM_VARIABLES_ADMIN,TABLE_ENCRYPTION_ADMIN,XA_RECOVER_ADMIN!
-</ObjectGrants>
     </user>
-    <table id="284" parent="2" name="endereco">
-      <Engine>InnoDB</Engine>
-    </table>
-    <column id="285" parent="284" name="endereco_id">
+    <table id="284" parent="7" name="usuario"/>
+    <column id="285" parent="284" name="id_usuario">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
-      <SequenceIdentity>null</SequenceIdentity>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="284" name="rua">
+    <column id="286" parent="284" name="nome">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="287" parent="284" name="numero">
+    <column id="287" parent="284" name="sobrenome">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="284" name="complemento">
+    <column id="288" parent="284" name="setor">
       <Position>4</Position>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="284" name="bairro">
+    <column id="289" parent="284" name="email">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="284" name="cidade">
+    <column id="290" parent="284" name="senha">
       <Position>6</Position>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>varchar(32)|0s</DataType>
       <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="291" parent="284" name="nome">
+    <column id="291" parent="284" name="nivel_acesso">
       <Position>7</Position>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>tinyint(4)|0s</DataType>
       <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="292" parent="284" name="contrato">
+    <column id="292" parent="284" name="datacadastro">
       <Position>8</Position>
-      <DataType>varchar(15)|0s</DataType>
+      <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="293" parent="284" name="data_inclusao">
-      <Position>9</Position>
-      <DataType>date|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <key id="294" parent="284" name="PRIMARY">
+    <key id="293" parent="284" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>endereco_id</ColNames>
+      <ColNames>id_usuario</ColNames>
       <Primary>1</Primary>
     </key>
   </database-model>
