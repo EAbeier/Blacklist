@@ -9,7 +9,7 @@ O site trata-se de duas páginas a primeira o INDEX para consulta e a segunda a 
 
 # INDEX:
 
-<img src="Blacklist/includes/Cleannet - Blacklist - Brave.jpg"/>
+<img src="includes/Cleannet - Blacklist - Brave.jpg"/>
 
 
 # ADICIONAR:
